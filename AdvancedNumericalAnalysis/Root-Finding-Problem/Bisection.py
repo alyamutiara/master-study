@@ -1,7 +1,7 @@
 # TUGAS ANUMLA 1
 # Metode Bisection untuk mencari akar persamaan
-# Nama : Alya Mutiara Firdausyi
-# NIM
+# Nama  : Alya Mutiara Firdausyi
+# NIM   : 20920007
 import math
 
 # Input batas, jumlah iterasi, dan toleransi
