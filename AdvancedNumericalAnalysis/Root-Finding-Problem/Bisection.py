@@ -2,6 +2,7 @@
 # Metode Bisection untuk mencari akar persamaan
 # Nama  : Alya Mutiara Firdausyi
 # NIM   : 20920007
+
 import math
 
 # Input batas, jumlah iterasi, dan toleransi
@@ -25,7 +26,7 @@ if (fx(a) * fx(b)) >= 0 :
 print("i \t p \t fx(p)")
 i = 1
 toleransi = 1000
-while toleransi > TOL :
+while toleransi >= TOL :
     p = (b + a)/2
     fxp = fx(p)
     print(i,p,fxp)
@@ -44,3 +45,5 @@ while toleransi > TOL :
         break
     toleransi = abs((b-a)/2)
     i = i + 1
+
+print('Nilai akar = ' + str(p))
